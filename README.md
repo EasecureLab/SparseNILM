@@ -19,3 +19,6 @@ If you use my code in your research please cite this paper. Current citation det
 ## piNILM
 
 **2016 May 2 Update:** This code is able to run on a Raspberry Pi 2B+ and 3. If you have a [Rainforest EMU2](https://rainforestautomation.com/rfa-z105-2-emu-2/) you can have the RPi communicate with your smart meter and perform disaggregation in real-time. Read the [piNILM.md](piNILM.md) document for details on how to do this. 
+
+## 20200413 修改sh文件为py文件
+os.system('')
