@@ -1,0 +1,22 @@
+import os
+
+os.system('python train_SSHMM.py BigO_L01 AMPdsR1_1min_A 10 200 noisy 4 1 BME ')
+os.system('python train_SSHMM.py BigO_L02 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE  ')
+os.system('python train_SSHMM.py BigO_L03 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE ')
+os.system('python train_SSHMM.py BigO_L04 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE ')
+os.system('python train_SSHMM.py BigO_L05 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE ')
+os.system('python train_SSHMM.py BigO_L06 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE  ')
+os.system('python train_SSHMM.py BigO_L07 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE  ')
+os.system('python train_SSHMM.py BigO_L08 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE  ')
+os.system('python train_SSHMM.py BigO_L09 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE  ')
+os.system('python train_SSHMM.py BigO_L10 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE  ')
+
+os.system('python train_SSHMM.py BigO_L11 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE ')
+os.system('python train_SSHMM.py BigO_L12 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E ')
+os.system('python train_SSHMM.py BigO_L13 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E,B2E ')
+os.system('python train_SSHMM.py BigO_L14 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E,B2E,DNE')
+os.system('python train_SSHMM.py BigO_L15 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E,B2E,DNE,EBE ')
+os.system('python train_SSHMM.py BigO_L16 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E,B2E,DNE,EBE,EQE ')
+os.system('python train_SSHMM.py BigO_L17 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E,B2E,DNE,EBE,EQE,HTE ')
+os.system('python train_SSHMM.py BigO_L18 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E,B2E,DNE,EBE,EQE,HTE,UTE  ')
+os.system('python train_SSHMM.py BigO_L19 AMPdsR1_1min_A 10 200 noisy 4 1 BME,CDE,CWE,DWE,FGE,FRE,GRE,HPE,OFE,TVE,WOE,B1E,B2E,DNE,EBE,EQE,HTE,UTE,UNE ')

@@ -84,6 +84,9 @@ adapted_event = 0
 adapted_errors = 0
 multi_switches_count = 0
 
+print('dataset=%s' % dataset)
+print(datasets_dir % dataset)
+
 print()
 folds = Folding(dataset_loader(datasets_dir % dataset, labels, precision, denoised), folds)
 for (fold, priors, testing) in folds: 
